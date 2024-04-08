@@ -1,0 +1,35 @@
+
+.dark{
+    width: 75%;
+    height: 500px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: rgb(165, 58, 58);
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form button{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 10px;
+}
+input{
+    width: 100%;
+    padding: auto;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+}
